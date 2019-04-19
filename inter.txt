@@ -1,0 +1,21 @@
+begin
+MINUS
+push 1
+push 2
+end
+begin
+MINUS
+MINUS
+push 2
+push 1
+push 3
+end
+begin
+IF
+MINUS
+push 1
+push 2
+MINUS
+push 3
+push 4
+end
