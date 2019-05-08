@@ -1,0 +1,29 @@
++ PROCESS DESCRTION
+( MINUS 2 ( MINUS 0 3 ) )
+( MINUS ( MINUS 1 ( IF ( MINUS 2 3 ) 1 ) ) ( IF ( MINUS 3 2 ) 1 ) )
+
++ INTERMEDIATE CODE
+begin
+MINUS
+push 2
+MINUS
+push 0
+push 3
+end
+
+begin
+MINUS
+MINUS
+push 1
+IF
+MINUS
+push 2
+push 3
+push 1
+IF
+MINUS
+push 3
+push 2
+push 1
+end
+
